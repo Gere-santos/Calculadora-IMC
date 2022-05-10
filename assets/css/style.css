@@ -1,0 +1,19 @@
+*{margin: 0;
+padding: 0;}
+
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@300 & display=swap');
+
+html { font-family: 'Montserrat', sans-serif;}
+
+body {background:royalblue; display: flex; justify-content: center; }
+.container {width:600px; height: 700px; background:seashell; margin-top: 30px; border-radius: 20px;}
+.grid {display:grid; grid-template-columns: 1fr 1fr; margin: 60px;}
+h1 {margin: 20px 60px;}
+li{ list-style:none; }
+h2 {margin-bottom: 15px;}
+.form1 {display: grid; flex-direction: row; margin: auto 60px; height: 200px;}
+button{margin-top: 30px; background: royalblue; font-size: 20px; cursor: pointer; border-radius: 10px;}
+button:hover {background: rgb(53, 60, 78); }
+label {margin-top: 5px;}
+form input:focus {outline: 1px solid royalblue;  }
+#resultado {margin:30px 27%; font-weight: bold;}
